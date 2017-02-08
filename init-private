@@ -16,3 +16,9 @@ genesis.json configs
 }
 }
 }
+
+
+// geth --identity "MyEthNodeName" --rpc --rpcport "8080" --rpccorsdomain "*" 
+// --datadir "/opt/local/geth/data" --port "30303" --nodiscover --ipcapi 
+// "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --rpcapi "db,eth,net,web3" 
+// --autodag --networkid 1900 --nat "any" init "/opt/local/geth/genesis.json"
