@@ -1,0 +1,3 @@
+// Solidity code, one line
+
+contract PoE { bytes32 proof; function PeO(bytes32 _proof) { proof = _proof; } function prove(bytes document) returns (bool) { return sha3(document) == proof; } }
